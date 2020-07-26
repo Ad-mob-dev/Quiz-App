@@ -1,0 +1,52 @@
+
+    #head{
+        
+        border:1px solid black;
+        padding-left:20px;
+        color: black;
+        opacity: 0.9;
+        
+    }
+    
+    #head>button{
+        
+        display:block;
+        margin: 30px;
+        width:180px;
+        text-align: center;
+        
+    }
+    #head>label{
+        
+        display:block;
+        
+        
+    }
+    label>input[type = "radio"]{
+        margin: 20px;
+    }
+    
+    body{
+        box-sizing: border-box;
+    }
+    
+    @media (max-width:500px) and (min-width:300px){
+.status{
+    font-size: 16px !important;
+}
+.row>.footer{
+    width: 100% !important;
+}
+
+#select{
+    font-size: 18px !important;
+    font-weight: bold;
+}
+
+#head{
+    font-size: 16px !important;
+}
+
+
+
+    }
